@@ -1,0 +1,108 @@
+.twh-data {
+  margin: 2em 1em;
+}
+
+.twh-data__header {
+  margin-bottom: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.twh-data__btn-add {
+  background-color: purple;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 100%;
+  margin-left: 20px;
+  height: 35px;
+}
+
+.twh-data #twh-table span {
+  cursor: pointer;
+}
+
+.twh-data #twh-table #edit_wh {
+  color: green;
+}
+
+.twh-data #twh-table #del_wh {
+  color: red;
+}
+
+.mh-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 99999;
+  display: none;
+}
+
+.mh-popup__btn-close {
+  background-color: transparent;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: inherit;
+  border: none;
+  font-size: 20px;
+  color: #333;
+  cursor: pointer;
+}
+
+.mh-popup__content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background: #fff;
+  padding: 50px;
+  border-radius: 10px;
+  width: 25%;
+}
+
+.mh-popup__content--form .mh-form-group {
+  margin-bottom: 1em;
+}
+
+.mh-popup__content--form .mh-form-group label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.mh-popup__content--form .mh-form-group select {
+  width: 60%;
+  padding: 7px 15px;
+  color: #333;
+  outline: none;
+  border: 1px solid #ccc;
+}
+
+.mh-popup__content--form .mh-form-group input, .mh-popup__content--form .mh-form-group textarea {
+  width: 100%;
+  padding: 7px 15px;
+  color: #333;
+  outline: none;
+  border: 1px solid #ccc;
+}
+
+.mh-popup__content--form button {
+  background-color: purple;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 100%;
+}
+/*# sourceMappingURL=admin.css.map */

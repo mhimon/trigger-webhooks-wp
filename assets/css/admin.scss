@@ -1,0 +1,94 @@
+.twh-data {
+    margin: 2em 1em;
+    &__header {
+        margin-bottom: 2em;
+        display: flex;
+        align-items: center;
+    }
+    &__btn-add {
+        background-color: purple;
+        color: #fff;
+        padding: 5px 10px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: 100%;
+        margin-left: 20px;
+        height: 35px;
+    }
+    #twh-table {
+        span {
+            cursor: pointer;
+        }
+        #edit_wh {
+            color: green;
+        }
+        #del_wh {
+            color: red;
+        }
+    }
+}
+.mh-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba( 0, 0, 0, 0.6 );
+    z-index: 99999;
+    display: none;
+    &__btn-close {
+        background-color: transparent;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        z-index: inherit;
+        border: none;
+        font-size: 20px;
+        color: #333;
+        cursor: pointer;
+    }
+    &__content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate( -50%, -50%);
+        background: #fff;
+        padding: 50px;
+        border-radius: 10px;
+        width: 25%;
+        &--form {
+            .mh-form-group {
+                margin-bottom: 1em;
+                label {
+                    display: block;
+                    margin-bottom: 10px;
+                }
+                select {
+                    width: 60%;
+                    padding: 7px 15px;
+                    color: #333;
+                    outline: none;
+                    border: 1px solid #ccc;
+                }
+                input, textarea {
+                    width: 100%;
+                    padding: 7px 15px;
+                    color: #333;
+                    outline: none;
+                    border: 1px solid #ccc;
+                }
+            }
+            button {
+                background-color: purple;
+                color: #fff;
+                padding: 10px 20px;
+                border: none;
+                cursor: pointer;
+                border-radius: 5px;
+                font-size: 100%;
+            }
+        }
+    }
+    
+}

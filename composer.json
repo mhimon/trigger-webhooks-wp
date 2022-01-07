@@ -1,0 +1,20 @@
+{
+    "name": "ultradevs/trigger-webhooks",
+    "description": "TriggerWebhooks",
+    "authors": [
+        {
+            "name": "mhimon",
+            "email": "mahbubhasanimon@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "appsero/client": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "TWH\\": "includes/"
+        },
+        "files": [ "includes/functions.php" ]
+    }
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<ruleset
+	name="WordPress.Trigger.Webhooks"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/squizlabs/PHP_CodeSniffer/master/phpcs.xsd"
+>
+	<description>Trigger Webhooks</description>
+
+	<!-- Default tab width for indentation fixes and such. -->
+	<arg name="tab-width" value="4"/>
+
+	<rule ref="WordPress-Extra">
+		<exclude name="WordPress.Files.FileName.InvalidClassFileName" />
+		<exclude name="WordPress.Arrays.ArrayDeclarationSpacing"/>
+		<exclude name="Generic.Arrays.DisallowShortArraySyntax"/>
+	</rule>
+
+</ruleset>
